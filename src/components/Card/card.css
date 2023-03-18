@@ -1,0 +1,40 @@
+
+
+.allCards {
+  margin-bottom: 20px;
+  width: 200px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  margin-right: 30px;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.allCards img {
+  
+  padding: 20px;
+  height: 60%;
+} 
+
+.nameAndPrice p {
+  text-align: center;
+  padding: 10px; 
+  vertical-align: bottom;
+  width: 200px;
+}
+.nameAndPrice p:nth-child(2) {
+  background-color: black;
+  color: rgb(255, 157, 0);
+  
+}
+
+.card img {
+  width: 100%;
+}
+
+
